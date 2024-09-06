@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<serversConfig>
+	<SRV>
+		<SRV main='true' name='main_srv' address='0.0.0.0' port='3305' database='tc-db-main' user='user' password='password'/>
+		<SRV main='false' name='slave1' address='0.0.0.0' port='3305' database='tc-db-main' user='user' password='password'/>
+		<SRV main='false' name='slave2' address='0.0.0.0' port='3305' database='tc-db-main' user='user' password='password'/>
+		<SRV main='false' name='slave3' address='0.0.0.0' port='3305' database='tc-db-main' user='user' password='password'/>
+		<SRV main='false' name='slave4' address='0.0.0.0' port='3305' database='tc-db-main' user='user' password='password'/>
+	</SRV>
+</serversConfig>
